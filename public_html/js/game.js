@@ -1,0 +1,5 @@
+game = {
+    newGame: function () {
+        newWord();
+    }
+};
