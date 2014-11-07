@@ -10,5 +10,8 @@ worddict = {
     },
     getWordForKey: function (key) {
         return this.words[key];
+    },
+    getNewWord: function () {
+        return "super";
     }
-}
+};
