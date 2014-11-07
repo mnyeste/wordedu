@@ -23,4 +23,4 @@ var wordedulogger = {
         console.log(message);
     }
 }
-wordedulogger.level = hotLogger.INFO_LV;
+wordedulogger.level = wordedulogger.INFO_LV;
