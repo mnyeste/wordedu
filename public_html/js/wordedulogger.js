@@ -23,4 +23,4 @@ var wordedulogger = {
         console.log(message);
     }
 }
-wordedulogger.level = wordedulogger.INFO_LV;
+wordedulogger.level = wordedulogger.DEBUG_LV;
