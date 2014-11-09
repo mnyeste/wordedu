@@ -8,20 +8,20 @@ game = {
         this.guesses = [];
     },
     addCharacter: function (c) {
-        if (this.guesses.length >= this.translatedword.length) {
+        if (game.guesses.length >= game.translatedword.length) {
             return false;
         }
-        this.guesses.push(c);
+        game.guesses.push(c);
         return true;
     },
     removeCharacter: function () {
-        if (this.guesses.length == 0) {
+        if (game.guesses.length == 0) {
             return false;
         }
-        this.guesses.pop();
+        game.guesses.pop();
         return true;
     },
     matches : function () {
-        return this.translatedword == this.guesses.join('');
+        return game.translatedword == game.guesses.join('');
     }
 };
