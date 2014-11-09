@@ -1,7 +1,8 @@
 worddict = {
     words: {
         'dog': 'kutya',
-        'cat': 'macska'
+        'cat': 'macska',
+        'super' : 'szuper'
         //--BEGIND-WORD-LISTING
         //--END-WORD-LISTING
     },
