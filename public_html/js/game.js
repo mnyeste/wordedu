@@ -12,5 +12,12 @@ game = {
         }
         this.guesses.push(c);
         return true;
+    },
+    removeCharacter : function() {
+        if (this.guesses.length == 0) {
+            return false;
+        }
+        this.guesses.pop();
+        return true;
     }
 };

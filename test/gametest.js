@@ -9,6 +9,16 @@ describe("Game suite", function() {
         expect(game.addCharacter('a')).toBe(true);
     }
 
+    // out of space
+    expect(game.addCharacter('a')).toBe(false);
+
+    // delete one character
+    expect(game.removeCharacter()).toBe(true);
+
+    // can add one again
+    expect(game.addCharacter('a')).toBe(true);
+
+    // then out of space again
     expect(game.addCharacter('a')).toBe(false);
 
   });
