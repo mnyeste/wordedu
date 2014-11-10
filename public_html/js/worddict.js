@@ -13,6 +13,8 @@ worddict = {
         return this.words[key];
     },
     getNewWord: function () {
-        return "super";
+        var wordCount = Object.keys(this.words).length;
+        var wordIndex = Math.floor(Math.random() * wordCount);
+        return Object.keys(this.words)[wordIndex];
     }
 };
