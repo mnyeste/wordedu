@@ -7,8 +7,8 @@ gameview = {
         document.onkeypress = function (e) {
             if (gameview.enableEvents) {
                 e = e || window.event;
-                var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
-                if (charCode) {
+                var charCode = e.which || e.keyCode;
+                if (charCode && charCode != 13) {
                     var character = String.fromCharCode(charCode);
                     wordedulogger.trace("Character typed: " + character);
                     if (game.addCharacter(character)) {
@@ -28,6 +28,12 @@ gameview = {
                         gameview.redraw();
                     }
                 }
+                else if (e.keyCode == 13) {
+                    wordedulogger.trace("Enter pressed");
+                    game.submit();
+                    game.newGame();
+                    gameview.redraw();
+                }
             }
             else {
                 wordedulogger.trace("Keyboard events are suspended");
@@ -45,6 +51,9 @@ gameview = {
 
         var translatedword = document.getElementById('translatedword');
         translatedword.innerHTML = game.guesses.join('');
+
+        var score = document.getElementById('score');
+        score.innerHTML = game.score;
 
     }
 };

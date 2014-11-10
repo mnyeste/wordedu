@@ -49,4 +49,21 @@ describe("Game suite", function () {
 
     });
 
+    it("on submit if the word matches we should get score", function () {
+
+        game.newGame();
+
+        var lengthOfWord = game.translatedword.length;
+        for (var i = 0; i < lengthOfWord; i++) {
+            game.addCharacter(game.translatedword[i]);
+        }
+
+        var originalScore = game.score;
+        game.submit();
+
+        var newScore = game.score;
+        expect(newScore).toBeGreaterThan(originalScore);
+
+    });
+
 });

@@ -2,6 +2,7 @@ game = {
     originalword: null,
     translatedword: null,
     guesses: null,
+    score: 0,
     newGame: function () {
         this.originalword = worddict.getNewWord();
         this.translatedword = worddict.getWordForKey(this.originalword);
@@ -21,7 +22,12 @@ game = {
         game.guesses.pop();
         return true;
     },
-    matches : function () {
+    matches: function () {
         return game.translatedword == game.guesses.join('');
+    },
+    submit: function () {
+        if (game.matches()) {
+            game.score = game.score + 10;
+        }
     }
 };
