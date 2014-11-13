@@ -41,6 +41,9 @@ game = {
             else {
                 result += "_";
             }
+            if (i < translatedLength - 1) {
+                result += " ";
+            }
         }
         return result;
     }

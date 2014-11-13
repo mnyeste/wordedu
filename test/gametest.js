@@ -71,10 +71,11 @@ describe("Game suite", function () {
         game.newGame();
 
         game.originalword = "hello";
-        game.guesses = ['h'];
+        game.translatedword = "bello";
+        game.guesses = ['b'];
         var guess = game.guessesDisplayed();
 
-        expect(guess).toBe("h____");
+        expect(guess).toBe("b _ _ _ _");
 
     });
 
