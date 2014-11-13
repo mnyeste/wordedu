@@ -2,7 +2,12 @@ worddict = {
     words: {
         'dog': 'kutya',
         'cat': 'macska',
-        'super' : 'szuper'
+        'super' : 'szuper',
+        'pipe' : 'cső',
+        'plug' : 'csatlakozó',
+        'exceed' : 'meghalad',
+        'limit' : 'határ',
+        'facility' : 'létesítmény'
         //--BEGIND-WORD-LISTING
         //--END-WORD-LISTING
     },
