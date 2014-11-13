@@ -398,7 +398,12 @@ nav a:hover {
 }
 
 #translatedwordpanel {
+    font-family: monospace;
+    color: #e44d26;
     width: 100%;
     padding: 10px;
-    border: 1px solid black;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #f16529;
 }
