@@ -29,5 +29,19 @@ game = {
         if (game.matches()) {
             game.score = game.score + 10;
         }
+    },
+    guessesDisplayed: function () {
+        var result = "";
+        var translatedLength = game.translatedword.length;
+        var guessesLength = game.guesses.length;
+        for (i = 0; i < translatedLength; i++) {
+            if (i < guessesLength) {
+                result += game.guesses[i];
+            }
+            else {
+                result += "_";
+            }
+        }
+        return result;
     }
 };

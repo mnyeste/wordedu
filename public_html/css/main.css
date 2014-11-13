@@ -392,3 +392,13 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+
+#originalwordpanel {
+    padding-left: 5px;
+}
+
+#translatedwordpanel {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}

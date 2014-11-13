@@ -66,4 +66,16 @@ describe("Game suite", function () {
 
     });
 
+    it("guess should be followed by _ when typing is not complete", function () {
+
+        game.newGame();
+
+        game.originalword = "hello";
+        game.guesses = ['h'];
+        var guess = game.guessesDisplayed();
+
+        expect(guess).toBe("h____");
+
+    });
+
 });

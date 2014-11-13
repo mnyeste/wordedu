@@ -50,7 +50,7 @@ gameview = {
         originalword.innerHTML = game.originalword;
 
         var translatedword = document.getElementById('translatedword');
-        translatedword.innerHTML = game.guesses.join('');
+        translatedword.innerHTML = game.guessesDisplayed();
 
         var score = document.getElementById('score');
         score.innerHTML = game.score;
