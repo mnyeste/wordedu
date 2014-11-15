@@ -27,6 +27,7 @@ gameview = {
                     if (game.removeCharacter()) {
                         gameview.redraw();
                     }
+                    e.preventDefault();
                 }
                 else if (e.keyCode == 13) {
                     wordedulogger.trace("Enter pressed");
