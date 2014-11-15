@@ -10,7 +10,26 @@ worddict = {
         'facility':'létesítmény',
         'super':'szuper',
         'location':'elhelyezkedés',
-        'finger':'ujj'
+        'finger':'ujj',
+        'multiple':'többszörös',
+        'separate':'elkülönít',
+        'cultivate':'termel',
+        'cultivated':'művelt',
+        'ripe':'érett',
+        'ripeness':'érettség',
+        'ripen':'érik',
+        'firmly':'határozottan',
+        'break up':'feloszt',
+        'comprise':'tartalmaz',
+        'consisit of':'áll valamiből',
+        'soluble':'oldódó',
+        'solution':'oldat',
+        'solvent':'oldószer',
+        'means':'eszközök',
+        'measures':'intézkedések',
+        'average':'átlag',
+        'a distinction is made':'különbséget kell tenni',
+        'ignore':'figyelmenkívűl hagy'
         //--END-WORD-LISTING
     },
     initialize: function () {
