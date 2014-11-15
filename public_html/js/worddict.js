@@ -1,6 +1,16 @@
 worddict = {
     words: {
         //--BEGIND-WORD-LISTING
+        'dog':'kutya',
+        'cat':'macska',
+        'pipe':'cső',
+        'plug':'csatlakozó',
+        'exceed':'meghalad',
+        'limit':'határ',
+        'facility':'létesítmény',
+        'super':'szuper',
+        'location':'elhelyezkedés',
+        'finger':'ujj'
         //--END-WORD-LISTING
     },
     initialize: function () {
