@@ -407,3 +407,18 @@ nav a:hover {
     -webkit-border-radius: 3px 3px 3px 3px;
     border: 1px solid #f16529;
 }
+
+#score {
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+.scoreSuccess {
+    color: green;
+}
+
+.scoreFail {
+    color: red;
+}

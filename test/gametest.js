@@ -64,6 +64,8 @@ describe("Game suite", function () {
         var newScore = game.score;
         expect(newScore).toBeGreaterThan(originalScore);
 
+        expect(game.lastSubmitSucceeded).toBe(true);
+
     });
 
     it("guess should be followed by _ when typing is not complete", function () {

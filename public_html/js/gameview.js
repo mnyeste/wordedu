@@ -34,6 +34,15 @@ gameview = {
                     game.submit();
                     game.newGame();
                     gameview.redraw();
+                    if (game.lastSubmitSucceeded) {
+                        score.className = "scoreSuccess";
+                    }
+                    else {
+                        score.className = "scoreFail";
+                    }
+                    setTimeout(function () {
+                        score.className = "";
+                    }, 500);
                 }
             }
             else {

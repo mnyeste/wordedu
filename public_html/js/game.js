@@ -3,6 +3,7 @@ game = {
     translatedword: null,
     guesses: null,
     score: 0,
+    lastSubmitSucceeded: false,
     newGame: function () {
         this.originalword = worddict.getNewWord();
         this.translatedword = worddict.getWordForKey(this.originalword);
@@ -28,6 +29,10 @@ game = {
     submit: function () {
         if (game.matches()) {
             game.score = game.score + 10;
+            game.lastSubmitSucceeded = true;
+        }
+        else {
+            game.lastSubmitSucceeded = false;
         }
     },
     guessesDisplayed: function () {
