@@ -14,7 +14,8 @@ log("split lines")
 splittedLines = []
 for line in lines:
 	splittedLine = line.split(',')
-	splittedLines.append(splittedLine)
+        if not "#" in line:
+            splittedLines.append(splittedLine)
 
 log("read dict file")
 
