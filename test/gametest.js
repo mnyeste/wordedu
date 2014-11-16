@@ -23,29 +23,11 @@ describe("Game suite", function () {
 
     });
 
-    it("should match correct guess", function () {
-
-        game.newGame();
-
-        var lengthOfWord = game.translatedword.length;
-        for (var i = 0; i < lengthOfWord; i++) {
-            game.addCharacter(game.translatedword[i]);
-        }
-
-        expect(game.matches()).toBe(true);
-
-    });
-
     it("should not match in correct guess", function () {
 
         game.newGame();
 
-        var lengthOfWord = game.translatedword.length;
-        for (var i = 0; i < lengthOfWord; i++) {
-            game.addCharacter('b');
-        }
-
-        expect(game.matches()).toBe(false);
+        expect(game.matches("random")).toBe(false);
 
     });
 
@@ -53,31 +35,13 @@ describe("Game suite", function () {
 
         game.newGame();
 
-        var lengthOfWord = game.translatedword.length;
-        for (var i = 0; i < lengthOfWord; i++) {
-            game.addCharacter(game.translatedword[i]);
-        }
-
         var originalScore = game.score;
-        game.submit();
+        game.submit(game.translatedword);
 
         var newScore = game.score;
         expect(newScore).toBeGreaterThan(originalScore);
 
         expect(game.lastSubmitSucceeded).toBe(true);
-
-    });
-
-    it("guess should be followed by _ when typing is not complete", function () {
-
-        game.newGame();
-
-        game.originalword = "hello";
-        game.translatedword = "bello";
-        game.guesses = ['b'];
-        var guess = game.guessesDisplayed();
-
-        expect(guess).toBe("b _ _ _ _");
 
     });
 

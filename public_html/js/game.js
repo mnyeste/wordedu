@@ -23,11 +23,11 @@ game = {
         game.guesses.pop();
         return true;
     },
-    matches: function () {
-        return game.translatedword == game.guesses.join('');
+    matches: function (translatedword) {
+        return game.translatedword == translatedword;
     },
-    submit: function () {
-        if (game.matches()) {
+    submit: function (translatedword) {
+        if (game.matches(translatedword)) {
             game.score = game.score + 10;
             game.lastSubmitSucceeded = true;
         }

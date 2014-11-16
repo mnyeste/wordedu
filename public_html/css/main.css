@@ -397,15 +397,21 @@ nav a:hover {
     padding-left: 5px;
 }
 
-#translatedwordpanel {
-    font-family: monospace;
-    color: #e44d26;
-    width: 100%;
+#translatedword {
+    width: 95%;
     padding: 10px;
-    border-radius: 3px 3px 3px 3px;
-    -moz-border-radius: 3px 3px 3px 3px;
-    -webkit-border-radius: 3px 3px 3px 3px;
-    border: 1px solid #f16529;
+    font-family: monospace;
+}
+
+#translatedword input[type="text"] {
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+#translatedword  input[type="text"]:focus,
+#translatedword  input[type="text"].focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
 }
 
 #score {
