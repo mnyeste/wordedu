@@ -81,6 +81,8 @@ body {
 .footer-container,
 .main aside {
     border-top: 20px solid #e44d26;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .header-container,
