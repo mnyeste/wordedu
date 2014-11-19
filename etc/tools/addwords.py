@@ -1,4 +1,6 @@
 import codecs
+import json
+from pprint import pprint
 
 def log(text):
     print "[addwords] -",text
@@ -17,17 +19,16 @@ for line in lines:
     if not "#" in line:
         splittedLines.append(splittedLine)
 
-f = codecs.open('../../public_html/js/words.json', 'w')
+json_data=open('../../public_html/js/words_tmpl.json')
+data = json.load(json_data)
+json_data.close()
 
-f.write("{\n")
-
-i = 0
 for splittedLine in splittedLines:
-    f.write("\"{0}\":\"{1}\"".format(splittedLine[0],splittedLine[1]));
-    if (i < len(splittedLines) - 1):
-        f.write(",")
-    f.write("\n")
-    i = i + 1
+    key = splittedLine[0]
+    value = splittedLine[1]
+    data["words"][key]=value
 
-f.write("}\n")
-f.close()
+pprint(data)
+
+with open('../../public_html/js/words.json', 'w') as outfile:
+  json.dump(data, outfile)

@@ -1,12 +1,19 @@
-game = {
+var game = {
     originalword: null,
     translatedword: null,
     guesses: null,
     score: 0,
     lastSubmitSucceeded: false,
+    reversedmode: false,
     newGame: function () {
         this.originalword = worddict.getNewWord();
         this.translatedword = worddict.getWordForKey(this.originalword);
+        if (this.reversedmode)
+        {
+            var temp = this.originalword;
+            this.originalword = this.translatedword;
+            this.translatedword = temp;
+        }
         this.guesses = [];
     },
     addCharacter: function (c) {

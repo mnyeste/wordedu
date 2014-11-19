@@ -1,4 +1,4 @@
-gameview = {
+var gameview = {
     enableEvents: false,
     initGameView: function () {
 
@@ -12,7 +12,7 @@ gameview = {
                     var guess = translatedword.value;
                     game.submit(guess);
                     game.newGame();
-                    gameview.redraw();
+                    var score = document.getElementById('score');
                     if (game.lastSubmitSucceeded) {
                         score.className = "scoreSuccess";
                     }
@@ -22,6 +22,7 @@ gameview = {
                     setTimeout(function () {
                         score.className = "";
                     }, 500);
+                    gameview.redraw();
                 }
             }
         };
@@ -29,7 +30,27 @@ gameview = {
         this.redraw();
 
     },
+    changeMode : function (mode) {
+        game.reversedmode = mode;
+        game.newGame();
+        gameview.redraw();
+    },
     redraw : function () {
+
+        var directDictName = document.getElementById('directDictName');
+        var reversedDictName = document.getElementById('reversedDictName');
+
+        directDictName.innerHTML = worddict.directDictName;
+        reversedDictName.innerHTML = worddict.reversedDictName;
+
+        if (game.reversedmode) {
+            directDictName.className = "";
+            reversedDictName.className = "selected";
+        }
+        else {
+            directDictName.className = "selected";
+            reversedDictName.className = "";
+        }
 
          // Display word to translate to user
         var originalword = document.getElementById('originalword');
@@ -42,5 +63,5 @@ gameview = {
         var score = document.getElementById('score');
         score.innerHTML = game.score;
 
-    }
+    },
 };
