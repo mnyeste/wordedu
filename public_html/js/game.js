@@ -1,11 +1,15 @@
 var game = {
     originalword: null,
     translatedword: null,
+    lastquiz: null,
+    lastsolution: null,
     guesses: null,
     score: 0,
     lastSubmitSucceeded: false,
     reversedmode: false,
     newGame: function () {
+        this.lastquiz = this.originalword;
+        this.lastsolution = this.translatedword;
         this.originalword = worddict.getNewWord();
         this.translatedword = worddict.getWordForKey(this.originalword);
         if (this.reversedmode)

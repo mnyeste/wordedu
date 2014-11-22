@@ -437,3 +437,26 @@ nav a.selected {
 .scoreFail {
     color: red;
 }
+
+#result {
+    font-size: 0.7em;
+    margin-top: 5px;
+}
+
+.resultHidden {
+    display: none;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+.resultSuccess {
+    display: block;
+    color: green;
+}
+
+.resultFail {
+    display: block;
+    color: gray;
+}

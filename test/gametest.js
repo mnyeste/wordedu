@@ -30,11 +30,29 @@ describe("Game suite", function () {
 
     });
 
-    it("should not match in correct guess", function () {
+    it("should not match incorrect guess", function () {
 
         game.newGame();
 
         expect(game.matches("random")).toBe(false);
+
+    });
+
+   it("should save last solution word", function () {
+
+        game.newGame();
+
+        var quiz = game.originalword;
+        var solution = game.translatedword;
+
+        game.submit("random");
+        game.newGame();
+
+        var lastquiz = game.lastquiz;
+        var lastsolution = game.lastsolution;
+
+        expect(lastquiz).toBe(quiz);
+        expect(lastsolution).toBe(solution);
 
     });
 

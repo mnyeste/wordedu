@@ -1,5 +1,6 @@
 var gameview = {
     enableEvents: false,
+    resultTimeout: null,
     initGameView: function () {
 
         // Add keyevent handing
@@ -8,20 +9,13 @@ var gameview = {
             if (gameview.enableEvents) {
                 if (e.keyCode == 13) {
                     wordedulogger.trace("Enter pressed");
+                    clearTimeout(gameview.resultTimeout);
                     var translatedword = document.getElementById('translatedword');
                     var guess = translatedword.value;
                     game.submit(guess);
                     game.newGame();
-                    var score = document.getElementById('score');
-                    if (game.lastSubmitSucceeded) {
-                        score.className = "scoreSuccess";
-                    }
-                    else {
-                        score.className = "scoreFail";
-                    }
-                    setTimeout(function () {
-                        score.className = "";
-                    }, 500);
+                    gameview.updateScore(game.lastSubmitSucceeded);
+                    gameview.updateResult(game.lastSubmitSucceeded);
                     gameview.redraw();
                 }
             }
@@ -34,6 +28,30 @@ var gameview = {
         game.reversedmode = mode;
         game.newGame();
         gameview.redraw();
+    },
+    updateResult : function(success) {
+        var result = document.getElementById('result');
+        if (success) {
+            result.innerHTML = "Helyes!";
+            result.className = "resultSuccess";
+        }
+        else {
+            result.innerHTML = "A <i>'" + game.lastquiz + "'</i> szó jelentése(i): <i>'" + game.lastsolution + "'</i>";
+            result.className = "resultFail";
+        }
+        gameview.resultTimeout = setTimeout(function () { result.className = "resultHidden"; }, 3500);
+    },
+    updateScore : function(success) {
+        var score = document.getElementById('score');
+        if (success) {
+            score.className = "scoreSuccess";
+        }
+        else {
+            score.className = "scoreFail";
+        }
+        setTimeout(function () {
+            score.className = "";
+        }, 500);
     },
     redraw : function () {
 

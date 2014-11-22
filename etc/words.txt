@@ -34,7 +34,7 @@ dissolv,feloldódik
 among,között
 take,igénybevesz
 take,tart valameddig
-late,tart valameddig
+last,tart valameddig
 certain amount of time,bizonyos ideig
 #it is affected by light
 vapor pressure,gőznyomás
