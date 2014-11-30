@@ -1,0 +1,353 @@
+a,egy,egy bizonyos
+abandon,elhagy,felad,fesztelen viselkedés,letesz vmiről
+abandoned,elhagyatott,elhagyott
+abbey,apátság,apátsági templom,kolostor
+ability,képesség,tehetség
+able,alkalmas,képes,képes,tud,rátermett,tehetséges,ügyes
+abolition,eltörlés,megszüntetés,rabszolgaság eltörlése
+abortion,abortusz,elvetélés,kudarc,torzalak,torzszülött,vetélés
+about,körös-körül,felől,körül,körülbelül,közel,közelben,megközelítőleg,mindenfelé,nem messze,táján
+above,felül,fent,előbb említett,felett,fent említett,fentiekben,több mint,fölé,fentebb,fenti
+abroad,házon kívül,idegen pályán,idegenben,külföldön,külföldre,mindenfelé,széltében-hosszában
+absence,hiány,távollét
+absent,hiányzó,távollévő
+absolute,abszolút,feltétlen,korlátlan,teljes
+absolutely,teljesen
+abstract,absztrahál,elemel,eltulajdonít,elvon,elvont,összefoglalás,kivonat
+absurd,abszurd,képtelen
+abuse,szemfényvesztés,megtéveszt,mocskol,mocskolódás,helytelenül használ fel,nemi erőszak,ócsárlás,megcsal,megbecstelenít,gyalázkodás,helytelen alkalmazás,helytelen használat,helytelenül alkalmaz,erőszakot követ el,félrevezet,félrevezetés,gyalázkodó beszéd,durva bánásmód,becsap,becsmérel,erőszakos nemi közösülés,gyaláz,rosszul használ fel,sértés,téves alkalmazás,visszaélés,visszaél,szabálytalanság,megbecstelenítés,jogtalanság,túlkapás,téves használat,sértésekkel halmoz el,sértő beszéd,rossz célra való fordítás,sérteget,rosszul bánik vmivel,rosszul alkalmaz,rongál,rontás,rossz célra fordít,rongálás,ócsárol,rászed
+academic,akadémikus,egyetemi,akadémiai,akadémiai tag,főiskolai tanár,elméleti,főiskolai,hagyományos,egyetemi előadó,egyetemi tanár,főiskolai előadó,elvont,formalista,tudományos,hivatalos,konvencionális,nem gyakorlati,hivatalosan elfogadott
+academics,álokoskodás,előírásos főiskolai viselet,tudományos szőrszálhasogatás
+accept,elfogad
+acceptable,elfogadható
+acceptance,átvétel,elfogadás,elfogadvány
+accepted,elfogadott
+access,dühroham,belépés,bemenet,elérés,hozzáfér,hozzáférhetőség,roham
+accessible,elérhető,hozzáférhető,megközelíthető
+accident,baleset,szerencsétlenség,véletlen
+accommodate,helyreállít,hozzáilleszt,hozzáalkalmaz,férőhelyet biztosít,helyrepofoz,férőhelyet nyújt,elsimít,egyetért,elhelyez,alkalmaz,befogad,elszállásol,segítségére van,szolgálatára van,összeegyeztet,szállást ad,rendbe hoz,kiegyenlít,lekötelez,megjavít,összebékít,megegyezésre jut,kompenzál,kibékít,hozzáidomít,hozzáigazít
+accommodation,alkalmazkodás,berendezés,elhelyezés,elszállásolás,helyiség,hozzáalkalmazás,lakótér
+accordingly,ennek megfelelően,éppen ezért,eszerint,így,következésképpen,megfelelően,tehát
+account,beszámolás,beszámoló,számla,kimutatás,haszon,fontosság,elszámolás,elszámolási kötelezettség,elbeszélés,előny,gondol vminek,hó végi elszámolás,leírás,közlés,jelentés,jelentőség,számvetés,tekint vminek,tart vminek,jegyzék
+accountability,elszámolási kötelezettség,felelősség,felelősségre vonhatóság,számadási kötelezettség
+accounting,könyvelés,könyvelői munka,könyvelői szakma,könyvelőség,könyvvitel
+accounts,könyvelés,könyvvitel
+accumulation,felhalmozódás
+accuracy,hitelesség,pontosság,szabatosság
+accurate,pontos,szabatos
+accurately,pontosan
+accused,terhelt,vádlott
+achieve,elér,kivív,megvalósít,véghezvisz,végrehajt,teljesít
+achievement,eredmény,teljesítés,teljesítmény,tett,véghezvitel
+acid,fanyar,sav,savanyú,savas
+acknowledge,beismer,bevall,elismer,méltányol,nyugtáz
+acquire,elsajátít,megszerez,szert tesz
+acquired,szerzett
+acquisition,megszerzés,szerzemény,akvizíció,beszerzés,szerzeményezés,vagyongyűjtés,vásárlás,szerzés,nyereség,vétel,vívmány
+across,át,keresztben,keresztül,odaát,túl
+act,hat,cselekmény,alakít,cselekedet,cselekszik,cselekvés,felvonás,intézkedik,játszik,szerepel,tett,működik,művel,megjátszik,törvény
+acting,aktív,alakítás,eljárás,eljátszás,ható,helyettes,játék,színészet,ügyvezető,színjátszás,működő
+action,eljárás,cselekmény,cselekvés,bevetés,akció,behatás,cselekedet,hadművelet,járás,hatás,óramű,rendelkezés,részvény,játék,harctevékenység,intézkedés,művelet,közbelépés,működés,mechanizmus,mozgás,tett,történés,tevékenység,szerkezet,támadás,ténykedés,taglejtés,mozdulat
+actions,események
+active,hatékony,cselekvő,élénk,aktív,aktivál,ható,mozgásba hoz,működésbe hoz,működő,radioaktívvá tesz,tevékeny
+activities,tevékenységek
+activity,aktivitás,elfoglaltság,ténykedés,tevékenység
+actor,színész
+acts,tettek
+actual,folyamatban levő,tényleges,valódi,valóságos
+actually,valóban,valójában
+acute,éles,átható,égető,agyafúrt,akut,eszes,hegyes,heves,időszerű,heveny,minden hájjal megkent,ügyes,sajgó,sürgős,ravasz,kínzó,körmönfont
+ad,hirdetés
+adapt,alkalmassá tesz,alkalmazkodik,átalakít,átdolgoz,hozzá alkalmaz,hozzá illeszt
+adaptation,alkalmazás,alkalmazkodás,átdolgozás,hozzáalkalmazás,hozzáillesztés,hozzárendezés
+add,egybevet,emel,hozzáad,hozzájárul,hozzájön,hozzátesz,hozzátold,összeköt,szaporodik,összead
+added,adott,hozzáadott,hozzáadta
+adding,hozzáadva,összeadás
+addition,összeadás,összegzés
+additional,pótlólagos,további
+address,beszéd,előadás,címez,beszél,beszédet intéz,beszédet mond,cím,címzés,ír,irányít,üdvözöl,viselkedés,szólít,ügyesség,megszólít,modor,küld
+addressed,címzett
+addresses,címek
+adds,hozzáad
+adequate,adekvát,kielégítő,megfelelő
+adjacent,határos,közeli,mellette fekvő,szomszédos
+adjustment,beállítás,behangolás,beigazítás,beszabályozás,elintézés,elrendezés,kiegyenlítés
+administration,beadás,adminisztráció,államapparátus,adás,igazgatás,kabinet,kormányzat,közigazgatás,kormány,kormányzás,ügyintézés,nyújtás
+administrative,adminisztratív,közigazgatási
+admission,beengedés,beismerés,bebocsátás,bejutás,belépés,belépődíj,egyetemi felvétel,engedély,felvétel,elismerés,belépti díj
+admit,bebocsát,beenged,befogad,beismer,bevall,elismer,felvesz,megenged
+adopt,alkalmaz,elfogad,felvesz,magáévá tesz,örökbe fogad
+adopted,örökbe fogadott
+adoption,adoptálás,elfogadás,örökbefogadás
+adult,felnőtt
+advance,előre jut,előrehaladás,előrehoz,előnyomul,előnyomulás,előretart,előléptet,előleg,előlegez,előad,előbbre jut,előmozdít,haladás/fejlődés,felemel,rangban előlép,kölcsön,kölcsönad,előzetes,emelkedik,javulás,halad,haladás,fellendít,fejlődés,emel,elősegít,előterjeszt
+advanced,haladó
+advantage,előny
+adventure,kaland,merész vállalkozás
+adverse,ártalmas,ellenséges,ellentétes,kedvezőtlen
+advertisement,hirdetés,reklám
+advertising,értesítés,hirdetés,hirdető,közlés,propaganda,publicitás,reklám,reklámszakma,tudósító,tudósítás
+advice,értesítés,javaslat,tanács
+advise,ajánl,értesít,javall,tájékoztat,tanácskozik,tanácsol,tudósít,tanácsot ad
+advised,bölcs,helyeselhető,józan,megfontolt,meggondolt,okos
+adviser,tanácsadó
+advisory,tanácsadó,tanácskozási
+aesthetic,esztétikai,esztétikus
+affair,dolog,esemény,eset,ügy
+affect,befolyásol,érint,hat,hatással van vmire,színlel,tettet
+affected,mesterkélt
+affecting,megindító
+affection,ragaszkodás,szeretet,szeretet/vonzalom,vonzalom
+affects,befolyásol
+afford,ad,győz vmit,módjában van megtenni vmit,nyújt
+afraid,félő
+Africa,Afrika
+African,afrikai,néger
+after,azután,far-,hátsó,hátulsó,miután,modorában,mögött,szerint,után(a),utó-,utána,után
+afternoon,délután,délutáni
+afterwards,azután,később
+again,ezután,ismét,ezenfelül,egyébként,ezenkívül,ismételten,megint,továbbá,újból,újfent,újra,vissza-
+against,ellen
+age,életkor,érlel,kor,öregít,öregszik
+aged,koros
+agency,iroda,hatóerő,képviselet,közbenjárás,működés,tevékenység,ügynökség
+agenda,lista,napirend
+agent,képviselő,hatóanyag,közeg,közvetítő,okozó,tényező,természeti erő,ügynök
+aggression,agresszió,támadás,támadás/agresszió
+aggressive,agresszív,támadó,veszekedő,veszekedős
+ago,előtt,ezelőtt
+agree,egyetért,egyezik,egyeztet,egyezséget köt,kijön vkivel,megállapodik,megfelel,összhangban áll,megegyezik
+agreed,kölcsönösen megállapított,kölcsönösen megállapodott,megbeszélt,megegyezés szerinti
+agreement,egyezmény,egyeztetés,megállapodás,megegyezés
+agricultural,mezőgazdasági
+agriculture,mezőgazdaság
+ahead,elöl,előre
+aid,elősegít,előmozdít,megsegít,segéderő,segédeszköz,segédkezik,segédlet,segély,segítség,támogat,segít,segítőtárs
+aids,szerzett immunhiányos megbetegedés
+aim,cél,céloz,célba vesz,célkitűzés,célpontra irányít,célzás,igyekszik,irányoz,megcéloz,szándék,törekszik,ráirányít
+air,lég,huzat,látszat,fellépés,dallam,egykor,fitogtat,ária,arckifejezés,dal,levegő,szárít,szellőztet,viselkedés,szellő,repülő,korán,külszín,kimond,légi-,légügyi-
+aircraft,repülőgép
+airline,légitársaság
+airport,reptér,repülőtér
+alarm,alarmíroz,felizgat,izgat,aggaszt,aggodalom,felver,ijedtség,fellármáz,felriaszt,készenlétbe helyez,ijeszt,megijeszt,riadalom,vészjel,riaszt,riasztóberendezés,riadó,megrémít
+albeit,habár,jóllehet,noha
+Albert,Albert
+album,album,nagylemez
+alcohol,alkohol
+Alex,Sanyi
+Alexander,Sándor
+alike,egyaránt,egyforma,egyformán,hasonló,hasonlóan,ugyanúgy
+alive,élénk,életben lévő,eleven,élő
+all,mind,az összes,az egész,csupa,egész,egészen,mindaz,minden,összes,összesen,valamennyien,világmindenség,teljesen,valamennyi,teljes
+alleged,állítólagos
+allegedly,állítólag
+alliance,alosztály,szövetség
+allied,szövetséges
+allies,szövetségesek
+allocated,(le)foglalt
+allocation,elhelyezés,juttatás,kiosztás,kiutalás
+allow,ad,enged,állít,elismer,engedélyt ad,hozzájárul,nyújt,vél,engedélyez,ítél,megenged
+allowance,engedmény,csökkentés,(ár)engedmény,árengedmény,engedélyezett összeg,levonás,ráhagyás,térítés,pótlék,juttatás,kedvezmény,tűrés
+allowed,megengedve
+allowing,megengedve
+allows,megenged
+almost,majdnem
+alone,csak,csakis,egyedül,kizárólag
+along,előre,hosszában,hosszirányban,magával,mellett,mentében,mentében végig,mentén,vele,tovább
+alongside,hosszában,oldala mellé,oldala mellett
+already,már
+also,ezenfelül,is,nemkülönben,szintén,szintúgy,ugyancsak
+alter,átalakít,átalakul,megváltozik,megváltoztat,módosít,módosul,változik,változtat
+altered,megváltoztatott
+alternative,alternatív,alternatíva,vagylagos,választás
+alternatively,vagylagosan
+although,bár,habár
+altogether,teljesen
+always,állandóan,folyton,folytonosan,mindig,örökké,örökösen
+am,(vagyok)
+amazing,bámulatos,csodálatos,elképesztő,különleges,meglepő
+ambassador,nagykövet
+ambiguity,félreérthetőség,kétértelműség,kettős értelem
+ambiguous,bizonytalan,félreérthető,homályos,kétértelmű,kétséges,nehezen érthető,kétes,zavaros
+ambition,ambíció,becsvágy,becsvágyás,érvényesülési törekvés,nagyravágyás,törekvés,kitűzött cél
+ambitious,ambiciózus,becsvágyó,igényes,nagyra törő,nagyravágyó,törekvő
+amendment,helyesbítés,javítás,kiegészítés,módosítás
+America,Amerika
+American,amerikai
+amid,amid,közepette,között,közt,közte
+among,közé,között
+amongst,közé,között
+amount,mennyiség,összeg,összeget elér
+ample,bő(séges),bőséges,elegendő,tágas,terjedelmes
+Amsterdam,Amszterdam
+an,egy,és ha,ha,ha pedig,mintha
+analogy,analógia,hasonlóság,megfelelés
+analyse,analizál,elemez,megvizsgál,vizsgál
+analysis,analízis,elemzés,felsőbb mennyiségtan,vegyi összetétel
+analytical,analitikai,analitikus,elemző
+ancient,antik,ősi,régi
+and,és,ha,meg,mintha
+anger,bosszant,bosszúság,düh,felbosszant,felmérgesít,harag,indulat,mérgesít,méreg,harag/düh
+angle,átlós vágat,horog,horgászik,sarok,szemléleti mód,szög,horgászbot,eltér,eltérít,elfordít,egyoldalúan állít be vmit,elferdít (hírt),elfordul,beállítás,beállítottság,horgászkészség,szögalakban meghajlít,szögben elfordul,figyelem középpontjába állít,szemszög,hangsúlyoz,irány,meghajlít,szempont,keresztlabdákkal játszik,kiélez,keresztbe üt,ferdén elfordul,szöglet,törekszik vmire,zug,szögvas
+angry,dühös,bosszús,égő,fájó,fenyegető,gyulladt,mérges,viharos,haragos,indulatos
+animal,állat,állat-,állati,élőlény
+Ann,Anna
+Anne,Anna
+anniversary,évforduló
+announce,bejelent,bemond,kihirdet,közöl,meghirdet
+announcement,bejelentés,hirdetmény,kiírás,közlemény
+annual,egy évi,egynyári növény,évenkénti,évi,évkönyv
+annually,évenkénti
+anonymous,névtelen
+another,egy másik,másik
+answer,működik,felelet,érdemes,felel,kifizetődik,megfelel vminek,megoldás,reagál,megoldás (feladaté),megválaszol,visszavágás,válasz,válaszol,védekezés,válaszbeszéd,reflektál,riposzt
+answers,válaszok
+antibody,ellenanyag
+anxiety,aggály,aggodalom,aggódás
+anxious,aggódó,nyugtalan,türelmetlen
+any,akármi,bárki,akárki,bármely,bármelyik,semmivel,valaki,bármi,valami,valamivel
+anybody,akárki,bárki,valaki
+anyone,bárki
+anything,bármi
+anyway,akárhogy,akárhogyan,egyébként,így is úgy is,különben is,mindenesetre,mindenképpen,valahogyan,valahogy
+anywhere,akárhol,bárhol,bárhová,sehol,sehová,valahol,valahová
+apart,félre,ketté,külön,szét,távol egymástól,távolságra egymástól
+apparatus,berendezés,készülék
+apparent,kétségtelen,látható,látszólagos,nyilvánvaló,világos
+apparently,kétségtelenül,nyilvánvaló(an),nyilvánvalóan
+appeal,esdeklés,felhívás,csáb,fellebbezés,fellebbvitel,felhívást intéz,fellebbez,folyamodik,fordul,folyamodás,varázs,vonzerő,fordulás,könyörgés,könyörög,kérés
+appear,feltűnik,megjelenik,mutatkozik
+appearance,fellépés,látszat,jelenés,külsőségek,megjelenés,látomás,kísértet,perbe bocsátkozás,szellem,külső
+appearing,kinézésű,külsejű
+appears,megjelenik
+appendix,melléklet
+apple,alma
+applicable,alkalmazható
+application,alkalmazhatóság,alkalmazás,alkalmazási terület,bevonás,igyekezet,kérelmezés,kérés,kérvény,elmélyedés,felhasználás,felhasználási terület,kérelem,folyamodvány,iparkodás,használat,felhasználhatóság,szorgalom,pályázat,ráillesztés,szellemi erőfeszítés,ráhelyezés,figyelem
+applications,alkalmazások
+applied,alkalmazott,felhasznált
+applies,alkalmazottak
+apply,felrak,érvényes,alkalmaz,felhasznál,felvisz,felhord,ráerősít,ráilleszt,vonatkozik,ráhelyez,fordít,használ
+appointed,kijelölt,kinevezett,kitűzött
+appointment,állás,kinevezés,megbeszélés,megbeszélt időpont,randevú,találkozó,megbeszélt találkozó
+appointments,berendezés,berendezési tárgyak,felszerelés,felszerelési tárg
+appraisal,becslés,értékelés,felbecsülés
+appreciate,értékel,becsül,felmegy az ára,helyesen ítél meg,megbecsül,méltányol,nagyra becsül,tisztán lát
+appreciated,megbecsült
+appreciation,elismerés,élvezés,áremelkedés,helyes megítélés,értékelés,értéknövelés,megértés,méltánylás,megbecsülés,méltatás,nagyra értékelés
+approach,beállítás,bekötőút,hozzáállás,közeledik,közelít,felfogás,feljáró,közelítés,megközelit,közeledés,szemléletmód,megközelít,odavezető út,szemlélet,megközelítés
+approaching,közeledő,közelgő,közeli,közeli/közelgő
+appropriate,előirányoz,eltulajdonít,alkalmas,átutal,helyes,félretesz vmi célra,fordít vmi célra,illő,helyénvaló,kisajátít,megfelelő,kiutal
+appropriately,megfelelően
+approval,beleegyezés,elfogadás,helybenhagyás,helyeslés,hozzájárulás,imprimatúra,jóváhagyás,nyomási engedély
+approved,engedett,tudomásul szolgál
+approximately,hozzávetőleg,hozzávetőlegesen,körülbelül
+April,április
+aquarium,akvárium
+Arab,arab,arab ember,arab ló,arab nyelvtudás,arab nyelv
+arbitrary,korlátlan,önhatalmú,önkényes,tetszés szerinti,tetszőleges
+arch,boltív,beboltoz,bolthajtás,boltívet alkot,boltoz,huncut,ív,boltozódik,pajkos,törzsdöntés hátra,ravaszkás
+archaeological,archeológiai,régészeti
+archbishop,érsek
+architect,építész,építészmérnök
+architecture,építészet,építőművészet
+are,vagy,vannak
+area,felszín,felület,légtér,terep,térség,terület
+arena,aréna,küzdőtér
+Argentina,Argentína
+argue,bizonyít,érvel,megvitat,vitatkozik
+argument,bizonyíték,érv,érvelés,okoskodás,szóváltás,vita
+arguments,bizonyítékok
+arise,felkel
+arm,ág,ágazat,elágazás,fegyverkezik,fegyvernem,felfegyverez,folyóág,kar,ruhaujj
+armed,fegyveres
+armies,haderők
+arms,fegyver
+army,hadsereg
+arose,keletkezik
+around,felé,itt-ott,körülbelül,körös-körül,körül,közel,minden oldalon,mindenfelé,minden irányban,táján
+arrange,elintéz,elrendez,intéz,megállapodik,megegyezik,rendez
+arrangement,(el)rendezés,elhelyezkedés,berendezés,egyezség,elintézés,elrendezés,megállapodás,rendberakás,tagoltság,megegyezés,elsimítás
+arrangements,előkészületek,intézkedés
+array,elrendez,rend,sor,sorba állít
+arrest,lefoglal,lefoglalás,lefékez,lefog,feltartóztatás,feltartóztat,gátol,leköt,letartóztatás,megakadályoz,leszorítás,letartóztat,megállít,őrizetbe vétel,zár alá vétel,őrizetbe vesz,megakadályozás,megakaszt
+arrival,befutás,érkezés,kiszállás,megérkezés,szállítmány
+arrive,megérkezik,megérkezni
+art,mű-,csel,készség,furfang,illusztráció,mesterkedés,művészi,rajz,művészet,művészeti,tudomány,ügyesség,rajzóra,tehetség
+article,ágazat (hité),cikk,újságcikk
+articles,bekezdés
+artificial,erőltetett,mesterséges,szintetikus
+artist,festőművész,művész
+artistic,művészi
+arts,bölcsészet,bölcsészettudomány,bölcsésztudományok,művészetek,rajzóra,széptudományok
+as,amennyire,amint,ahogy,ahogyan,hogy,mint,mivel,amint éppen,bárhogy,bármennyire,bár,ugyanolyan,olyan,mint amilyen,mintha,minthogy,mint aminő
+Asia,Ázsia
+Asian,ázsiai
+aside,el,el-,félre,félre-,félre mondott megjegyzés,félreszólás,mellé,oldalt,részlet,oldalvást,mellékkörülmény,halkan mondott megjegyzés
+ask,(meg)kérdez,felkér,hív,kér,kérdez,kérdezni,meghív,megkívántatik,szükséges,szükségeltetik,megkér,megkérdez
+asks,kérdez
+aspect,aspektus,fekvés,külső forma,külső megjelenés,helyzet,alak,arckifejezés,külső,igei aspektus,igeszemlélet,látvány,jelleg,megjelenés,szempont,tekintet,szemszög,nézőpont,szemlélet,megvilágítás,kép
+assault,erőszakot követ el,megtámad,ostromlás,ostromol,roham,rohamoz,támadás,tettleg bántalmaz,veszélyes fenyegetés
+assembly,gyülekezet,gyűlés,összejövetel,összeszerelés,sorakozó
+assess,előír,felbecsül,kivet,megállapít
+assessment,értékelés,felbecs(ü)lés,felbecsülés,kivetés (adóé),kivetett adó
+asset,birtok,előny,nyereség,vagyon,vagyontárgy
+assets,aktívák,cselekvő vagyon,hagyatéki vagyon,kintlévőségek,követelések,vagyon,vagyoni érdekeltség,tőke,vagyontárgyak
+assigned,kijelölt
+assist,elősegít,hozzájárul,kisegít,részt vesz,segít,támogat
+assistance,segédlet,segély,segítség,támogatás
+assistant,alkalmazott,asszisztens,helyettes,helyettes-,kisegítő,pót-,segéd,tanársegéd,segéd-
+associated,összekapcsolt
+association,egyesület,asszociáció,egyesülés,egylet,érintkezés,kapcsolat,szövetség,társaság,társítás,társulat,társulás
+assume,magának követel,feltesz,feltételez,elvállal,elfogad,felölt,magának tulajdonít,megterheli magát,színlel,terheli magát,ölt,felvesz,magára vállal,tettet,vállal,magára vesz
+assumed,ál,állítólagos,feltételezett,hamis,hipotetikus,tettetett
+assuming,feltételezve
+assumption,feltételezés,felöltés,feltétel,elbizakodottság,altétel,előfeltétel,feltevés,hipotézis,követelmény,nagyravágyás,szűz mária mennybemenetele,tettetés,posztulátum,színlelés,önteltség
+assurance,bizonyosság,biztosítás,biztosíték,garancia,ígéret,magabiztosság,önbizalom,jótállás,szavatolás
+at,-kor,-nál,-nél
+Athens,Athén
+Atlantic,Atlanti-óceán
+atmosphere,atmoszféra,légkör
+atomic,atom-,atomhajtású,atommeghajtású,atomokra vonatkozó,parányi,rendkívül kicsi,szabad atomokból álló
+attached,bekötött,együttjáró,erősített,felkötött,hozzáerősített,kapcsolt,kötött,odakötött,velejáró,vkinek szolgálatában álló,vmilyen minőségben működő,vminek szolgálatában álló,rögzített
+attachment,csatlakoz(tat)ás,egybefűzés,függelék,hozzáerősítés,hozzákapcsolás,kellék,lefoglalás,letartóztatás,letiltás,ragaszkodás,tartozék,szeretet
+attack,elhasználódás,fogás,kimarás,korrózió,maratás,megtámad,megtámadás,roham,támad,vegyi támadás,támadás
+attainment,elérés,megszerzés,szerzemény
+attempt,kísérlet,megkísérel,megpróbál,merénylet
+attempting,kísérletezés
+attempts,kísérletek
+attend,eljár,ápol,ellát,részt vesz,látogat,segédkezik,követ,gondoz,jelen van,megnéz,velejár,kísér,kiszolgál,vigyáz,szolgálatára áll,kezel,hallgat
+attendance,látogatottság,érdeklődés,hallgatóság,jelenlét,ápolás,ellátás,gondozás,kíséret,látogatás,kiszolgálás,jelenlevők,kezelés,megjelenés,részvétel,résztvevők
+attention,figyelem,figyelmesség,gond,kezelés,udvariasság,gondozás,karbantartás,vigyázat
+attitude,állásfoglalás,helyzet,magatartás,póz,tartás,testtartás,viselkedés
+attract,vonz
+attraction,vonzás
+attractive,bájos,elbájoló,csábító,csalogató,ínycsiklandó,megnyerő,vonzó,szemrevaló,kellemes,előnyös
+auction,árverés,aukció,elárverez
+audience,hallgatóság,kihallgatás,közönség
+audit,revízió,ellenőriz,átvizsgál,egyetemi előadásokat látogat,könyvvizsgálat,rovancs,megvizsgál,vizsgál,vizsgálat,revideál,rovancsol,rovancsolás
+August,augusztus,magasztos
+Australia,Ausztrália
+Australian,ausztráliai,ausztráliai angolság,ausztráliai ember,ausztráliai nyelv
+Austria,Ausztria
+authentic,autentikus,hiteles,hitelt érdemlő,igazi
+author,író,okozó,szerző
+authorities,hatóság,hatóságok
+authority,fennhatóság,engedély,felhatalmazás,forrásmű,hatóság,meghatalmazás,szakértő,szaktekintély,tekintély,jogosultság,hatalom
+authors,szerzők
+automatic,automata,automatikus,gépies,ön-,önkéntelen,revolver,önműködő,önműködő fegyver
+automatically,automatikusan,gépiesen,önműködően
+autonomous,autonóm,önkormányzati,önrendelkezésű
+autonomy,autonómia,önkormányzat,önrendelkezés
+autumn,ősz,ősz(i)
+availability,elérhetőség,érvényesség,felhasználhatóság,hozzáférhetőség,lehetőség,használhatóság
+available,beszerezhető,elérhető,érvényes,felhasználható,megszerezhető,rendelkezésre áll,igénybe vehető,kapható,rendelkezésre álló
+average,átlag,átlagérték,átlagol,átlagos,hajókár,közepes,számtani középarányos,számtani középérték,számtani közép,havária
+aviation,légi közlekedés,repülés
+avoid,elkerül,kitér vmi elől
+award,díj,adományoz,diploma,döntés,ítél,ítélet,jutalom,megítél,pályadíj,odaítél,oklevél
+awards,díjak
+aware,elővigyázatos,felkészült,körültekintő,óvatos,tájékozott,tájékozott vmi felől,vmi felől tájékozott,vmiről tudomással bíró,vmit ismerő,vminek tudatában levő
+awareness,tudatosság
+away,el,messzire,rendületlenül,távol,tovább
+awful,áhítattal telt,áhítatos,áhítatot keltő,borzalmas,irtózatosan,félelmetes,rémes,borzasztóan,irtózatos,rémesen,szörnyű,tiszteletet keltő,ijesztő,félelmes,rémítő,rettenetesen,szörnyen,rettenetes,borzasztó
