@@ -10,8 +10,8 @@ var gameview = {
                 if (e.keyCode == 13) {
                     wordedulogger.trace("Enter pressed");
                     clearTimeout(gameview.resultTimeout);
-                    var translatedword = document.getElementById('translatedword');
-                    var guess = translatedword.value;
+                    var solution = document.getElementById('solution');
+                    var guess = solution.value;
                     game.submit(guess);
                     game.newGame();
                     gameview.updateScore(game.lastSubmitSucceeded);
@@ -74,9 +74,9 @@ var gameview = {
         var originalword = document.getElementById('originalword');
         originalword.innerHTML = game.originalword;
 
-        var translatedword = document.getElementById('translatedword');
-        translatedword.value = game.guesses;
-        translatedword.focus();
+        var solution = document.getElementById('solution');
+        solution.value = game.guesses;
+        solution.focus();
 
         var score = document.getElementById('score');
         score.innerHTML = game.score;

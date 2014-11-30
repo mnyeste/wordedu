@@ -1,0 +1,3 @@
+dog,kutya,kutyus
+cat,macska,cica,cicus
+handle,kilincs,fogó

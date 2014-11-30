@@ -2,9 +2,9 @@ var worddict = {
     directDictName: null,
     reversedDictName: null,
     words: {},
-    initialize: function () {
+    initialize: function (dictname) {
         $.ajax({
-            url: 'js/words.json',
+            url: 'js/dicts/' + dictname + '.json',
             dataType: 'json',
             async: false,
             success: function (data) {
@@ -15,7 +15,6 @@ var worddict = {
                 worddict.reversedDictName = data["reversedDictName"];
                 wordedulogger.debug("worddict initialized with " + Object.keys(worddict.words).length + " words");
             }
-
         });
     },
     getWordForKey: function (key) {

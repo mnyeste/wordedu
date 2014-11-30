@@ -2,8 +2,8 @@ describe("Game suite", function () {
 
     beforeEach(function () {
         worddict.words = {
-            "dog": "kutya",
-            "cat": "macska"
+            "dog": ["kutya", "kutyus"],
+            "cat": ["macska", "cica", "cicus"]
         };
     });
 
@@ -11,7 +11,7 @@ describe("Game suite", function () {
 
         game.newGame();
 
-        var lengthOfWord = game.translatedword.length;
+        var lengthOfWord = game.solution.length;
         for (var i = 0; i < lengthOfWord; i++) {
             expect(game.addCharacter('a')).toBe(true);
         }
@@ -43,7 +43,7 @@ describe("Game suite", function () {
         game.newGame();
 
         var quiz = game.originalword;
-        var solution = game.translatedword;
+        var solution = game.solution;
 
         game.submit("random");
         game.newGame();
@@ -61,7 +61,7 @@ describe("Game suite", function () {
         game.newGame();
 
         var originalScore = game.score;
-        game.submit(game.translatedword);
+        game.submit(game.solution[0]);
 
         var newScore = game.score;
         expect(newScore).toBeGreaterThan(originalScore);
@@ -73,14 +73,15 @@ describe("Game suite", function () {
     it("game with reversed mode should give primary language as solution and secondary as to be translated", function () {
 
         worddict.words = {
-            "primary": "secondary"
+            "dog": ["kutya", "kutyus"]
         };
 
         game.reversedmode = true;
         game.newGame(true);
 
-        expect(game.originalword).toBe("secondary");
-        expect(game.translatedword).toBe("primary");
+        expect(game.originalword).toBe("kutya");
+        expect(game.solution.length).toBe(1);
+        expect(game.solution[0]).toBe("dog");
 
     });
 

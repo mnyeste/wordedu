@@ -1,6 +1,6 @@
 var game = {
     originalword: null,
-    translatedword: null,
+    solution: null,
     lastquiz: null,
     lastsolution: null,
     guesses: null,
@@ -9,36 +9,41 @@ var game = {
     reversedmode: false,
     newGame: function () {
         this.lastquiz = this.originalword;
-        this.lastsolution = this.translatedword;
+        this.lastsolution = this.solution;
         this.originalword = worddict.getNewWord();
-        this.translatedword = worddict.getWordForKey(this.originalword);
+        this.solution = worddict.getWordForKey(this.originalword);
         if (this.reversedmode)
         {
             var temp = this.originalword;
-            this.originalword = this.translatedword;
-            this.translatedword = temp;
+            this.originalword = this.solution[0];
+            this.solution = [temp];
         }
         this.guesses = [];
     },
     addCharacter: function (c) {
-        if (game.guesses.length >= game.translatedword.length) {
+        if (game.guesses.length >= game.solution.length) {
             return false;
         }
         game.guesses.push(c);
         return true;
     },
     removeCharacter: function () {
-        if (game.guesses.length == 0) {
+        if (game.guesses.length === 0) {
             return false;
         }
         game.guesses.pop();
         return true;
     },
-    matches: function (translatedword) {
-        return game.translatedword == translatedword;
+    matches: function (solution) {
+        for (var i = 0; i < game.solution.length; i++) {
+            if (game.solution[i] === solution) {
+                return true;
+            }
+        }
+        return false;
     },
-    submit: function (translatedword) {
-        if (game.matches(translatedword)) {
+    submit: function (solution) {
+        if (game.matches(solution)) {
             game.score = game.score + 10;
             game.lastSubmitSucceeded = true;
         }
@@ -48,7 +53,7 @@ var game = {
     },
     guessesDisplayed: function () {
         var result = "";
-        var translatedLength = game.translatedword.length;
+        var translatedLength = game.solution.length;
         var guessesLength = game.guesses.length;
         for (i = 0; i < translatedLength; i++) {
             if (i < guessesLength) {

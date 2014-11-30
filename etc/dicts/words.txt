@@ -1,4 +1,4 @@
-source,forrás
+ource,forrás
 in some cases,néhány esetben
 generate,létrehoz,fejleszt
 occure,előfordul
@@ -8,12 +8,12 @@ maintain,fenntart
 prove,bizonyít
 resist,ellenáll
 resistant,ellenáll
-#keep off,távoltart vmi vmit,kerül
+keep off,távoltart vmi vmit,kerül
 on the basis of personal taste,egyéni ízlés alapján
 define,meghatároz
-#determine,meghatároz,elhatároz
-#harm,kározít,kárt okoz
-#perception,észlelés,érzékelés
+determine,meghatároz,elhatároz
+harm,kározít,kárt okoz
+perception,észlelés,érzékelés
 musty,dohos
 stale,állott
 rotten,rohadt
@@ -25,18 +25,18 @@ vary,változik
 variant,változat
 version,változat
 procedure,eljárs
-#condition,körülmény,állapot,feltétel
+condition,körülmény,állapot,feltétel
 shred,aprít
-#grind,őröl,darál,örlés
+grind,őröl,darál,örlés
 mill,őröl
 immiscible,nem vegyíthető
 dissolv,feloldódik
 among,között
 take,igénybevesz
 take,tart valameddig
-late,tart valameddig
+last,tart valameddig
 certain amount of time,bizonyos ideig
-#it is affected by light
+it is affected by light
 vapor pressure,gőznyomás
 multi-stage batch extraction,többfokozatú szakaszos extrakció
 continous counter-current extraction,folyamatos ellenáramú extakció
@@ -61,13 +61,13 @@ ripen,érik
 from a botanical point of view,növénytani szempontból nézve
 firmly,határozottan
 break up,feloszt
-#comprise,tartalmaz,átfog
-#consisit of, áll valamiből,tartalmaz
+comprise,tartalmaz,átfog
+consisit of, áll valamiből,tartalmaz
 soluble,oldódó
 solution,oldat
 solvent,oldószer
 means,eszközök
 measures,intézkedések
-#average,átlag,átlagos
+average,átlag,átlagos
 a distinction is made,különbséget kell tenni
-#ignore,figyelmenkívűl hagy,mellő
+ignore,figyelmenkívűl hagy,mellő
