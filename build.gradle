@@ -1,0 +1,41 @@
+task clean {
+	delete 'build'
+}
+
+// run python import test
+
+def run_karma() {
+    exec {
+        executable "node_modules/karma/bin/karma"
+        args 'start', 'test/resources/wordedu.karma.conf.js'
+    }
+}
+
+task test_unit () << {
+	println "===test_unit start==="
+	run_karma()
+	println "===test_unit end==="
+}
+
+task import_dicts << {
+	println "===import-dicts start==="
+	// call import for all dicts available
+	println "===import-dicts end==="
+}
+
+task build_site << {
+	println "===build-site start==="
+	// mkdir public_html
+	// add html source
+	// add css source
+	// add js source
+	println "===build-site end==="
+}
+
+task dist () << {
+	println "===dist start==="
+	test_unit.execute()
+	import_dicts.execute()
+	build_site.execute()
+	println "===dist end==="
+}
