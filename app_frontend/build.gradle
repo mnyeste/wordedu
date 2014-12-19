@@ -1,14 +1,13 @@
-task clean {
+task clean () << {
 	delete 'build'
 }
 
-task init {
+task init () << {
 	mkdir("build")
 }
 
-task build(type: Copy) {
-	from 'src/main/webapp'
-	into 'build/public_html'
+task build () << {
+	// nop
 }
 
 task test () << {

@@ -1,12 +1,12 @@
-task clean {
+task clean () << {
 	delete 'build'
 }
 
-task init {
+task init () << {
 	mkdir("build")
 }
 
-task build {
+task build () <<{
 	run_dict_import('words')
 }
 

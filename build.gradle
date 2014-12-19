@@ -33,12 +33,20 @@ task start_server() << {
 }
 
 def build_site () {
+	// add frontent package to dist
+	println "Adding frontend to package"
 	copy {
 		from "app_frontend/src/main/webapp"
 		into "build/public_html"
 	}
-	copy {
-		from "app_dict_import/build"
-		into "build/public_html/js/dicts"
+	// add defined dicts to dist
+	def dicts = ["words"]
+	(dicts).each { d ->
+		println "Adding dict ${d} to package"
+		copy {
+			from "app_dict_import/build/${d}.json"
+			into "build/public_html/js/dicts/${d}.json"
+		}
 	}
+	
 }
