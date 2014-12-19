@@ -1,5 +1,4 @@
 import sys
-import filehandler
 import dictfactory
 import logger
 

@@ -1,41 +1,44 @@
-task clean {
+task clean () << {
+	allprojects {
+		clean
+	}
 	delete 'build'
 }
 
-// run python import test
-
-def run_karma() {
-    exec {
-        executable "node_modules/karma/bin/karma"
-        args 'start', 'test/resources/wordedu.karma.conf.js'
-    }
+task init () << {
+	allprojects {
+		init
+	}
+	mkdir("build/public_html")
 }
 
-task test_unit () << {
-	println "===test_unit start==="
-	run_karma()
-	println "===test_unit end==="
+task build () << {
+	allprojects {
+		build
+	}
+	build_site()
 }
 
-task import_dicts << {
-	println "===import-dicts start==="
-	// call import for all dicts available
-	println "===import-dicts end==="
+task test () << {
+	allprojects {
+		test
+	}
 }
 
-task build_site << {
-	println "===build-site start==="
-	// mkdir public_html
-	// add html source
-	// add css source
-	// add js source
-	println "===build-site end==="
+task start_server() << {
+	exec {
+		executable "python"
+		args '-m', 'SimpleHTTPServer'
+	}
 }
 
-task dist () << {
-	println "===dist start==="
-	test_unit.execute()
-	import_dicts.execute()
-	build_site.execute()
-	println "===dist end==="
+def build_site () {
+	copy {
+		from "app_frontend/src/main/webapp"
+		into "build/public_html"
+	}
+	copy {
+		from "app_dict_import/build"
+		into "build/public_html/js/dicts"
+	}
 }

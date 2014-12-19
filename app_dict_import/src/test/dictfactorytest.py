@@ -1,8 +1,8 @@
 import unittest
 import sys
+import os
 
-sys.path.insert(0, '../src')
-
+sys.path.append(os.path.join('src/main'))
 import dictfactory
 
 class DictFactoryTest(unittest.TestCase):
@@ -24,7 +24,7 @@ class DictFactoryTest(unittest.TestCase):
 
         self.failUnless(directdictname == "Angol - Magyar")
         self.failUnless(directreversedname == "Magyar - Angol")
-        self.failUnless(len(words) == 2)
+        self.failUnless(len(words) == 3)
         self.failUnless(len(words["dog"]) == 2)
         self.failUnless(len(words["cat"]) == 3)
 

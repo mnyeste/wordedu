@@ -1,0 +1,29 @@
+task clean {
+	delete 'build'
+}
+
+task init {
+	mkdir("build")
+}
+
+task build {
+	run_dict_import('words')
+}
+
+task test () << {
+	run_dict_import_test()
+}
+
+def run_dict_import(dictname) {
+	exec {
+		executable "python"
+		args 'src/main/importwords.py', dictname
+	}
+}
+
+def run_dict_import_test() {
+	exec {
+		executable "python"
+		args 'src/test/dictfactorytest.py'
+	}
+}

@@ -12,7 +12,7 @@ class DictFactory:
     def build_json_dict(self, dictname):
 
         tmplfilename    = self.wordedulogger.set_and_log("tmplfilename", dictname + "_tmpl.json")
-        tmplfolderpath  = self.wordedulogger.set_and_log("tmplfolderpath", "../../../dict_templates")
+        tmplfolderpath  = self.wordedulogger.set_and_log("tmplfolderpath", "../etc/dict_templates")
         tmplfilepath    = self.wordedulogger.set_and_log("tmplfilepath", tmplfolderpath + "/" + tmplfilename)
 
         tmplfile = open(tmplfilepath)
@@ -20,7 +20,7 @@ class DictFactory:
         tmplfile.close()
 
         dictfilename    = self.wordedulogger.set_and_log("dictfilename", dictname + ".txt")
-        dictfolderpath  = self.wordedulogger.set_and_log("dictfolderpath", "../../../dicts")
+        dictfolderpath  = self.wordedulogger.set_and_log("dictfolderpath", "../etc/dicts")
         dictfilepath    = self.wordedulogger.set_and_log("dictfilepath", dictfolderpath + "/" + dictfilename)
 
         dictfile = open(dictfilepath, 'r')
@@ -41,7 +41,7 @@ class DictFactory:
     def save_json_dict(self, dictname, jsondict):
 
         targetfilename    = self.wordedulogger.set_and_log("targetfilename", dictname + ".json")
-        targetfolderpath  = self.wordedulogger.set_and_log("targetfolderpath", "../../../../public_html/js/dicts")
+        targetfolderpath  = self.wordedulogger.set_and_log("targetfolderpath", "build")
         targetfilepath    = self.wordedulogger.set_and_log("targetfilepath", targetfolderpath + "/" + targetfilename)
 
         with open(targetfilepath, 'w') as outfile:

@@ -1,0 +1,23 @@
+task clean {
+	delete 'build'
+}
+
+task init {
+	mkdir("build")
+}
+
+task build(type: Copy) {
+	from 'src/main/webapp'
+	into 'build/public_html'
+}
+
+task test () << {
+	run_karma()
+}
+
+def run_karma() {
+	exec {
+		executable "../node_modules/karma/bin/karma"
+		args 'start', 'src/test/resources/wordedu.karma.conf.js'
+	}
+}
