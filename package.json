@@ -1,0 +1,38 @@
+{
+  "name": "wordedu",
+  "version": "1.0.0",
+  "description": "=======",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jasmine": "^2.1.1",
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.12.28",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-htmlfile-reporter": "^0.1.2",
+    "karma-jasmine": "^0.3.2"
+  },
+  "devDependencies": {
+    "jasmine": "^2.1.1",
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.12.28",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-htmlfile-reporter": "^0.1.2",
+    "karma-jasmine": "^0.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnyeste/wordedu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnyeste/wordedu/issues"
+  },
+  "homepage": "https://github.com/mnyeste/wordedu"
+}

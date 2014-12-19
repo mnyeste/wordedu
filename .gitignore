@@ -3,3 +3,4 @@
 .gradle
 build
 **/*.pyc
+node_modules
