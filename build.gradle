@@ -1,38 +1,21 @@
-task clean () << {
-	allprojects {
-		clean
+subprojects {
+	task clean << { task ->
+		// println "Running $task.name in $task.project.name"
+		delete 'build'
 	}
-	delete 'build'
-}
-
-task init () << {
-	allprojects {
-		init
+	task init << { task ->
+		// println "Running $task.name in $task.project.name"
+		mkdir 'build'
 	}
-	mkdir("build/public_html")
-}
-
-task build () << {
-	allprojects {
-		build
+	task build << { task -> 
+		// nop
 	}
-	build_site()
-}
-
-task test () << {
-	allprojects {
-		test
+	task test << { task -> 
+		// println "Running $task.name in $task.project.name"
 	}
 }
 
-task start_server() << {
-	exec {
-		executable "python"
-		args '-m', 'SimpleHTTPServer'
-	}
-}
-
-def build_site () {
+task build_site () << {
 	// add frontent package to dist
 	println "Adding frontend to package"
 	copy {
@@ -40,13 +23,10 @@ def build_site () {
 		into "build/public_html"
 	}
 	// add defined dicts to dist
-	def dicts = ["words"]
-	(dicts).each { d ->
-		println "Adding dict ${d} to package"
-		copy {
-			from "app_dict_import/build/${d}.json"
-			into "build/public_html/js/dicts/${d}.json"
-		}
+	copy {
+		from "app_dict_import/build"
+		into "build/public_html/js/dicts"
+		include('words.json')
+		include('enghun1000.json')
 	}
-	
 }

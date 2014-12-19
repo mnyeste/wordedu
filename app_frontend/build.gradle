@@ -1,17 +1,9 @@
-task clean () << {
-	delete 'build'
-}
-
-task init () << {
-	mkdir("build")
-}
-
-task build () << {
-	// nop
-}
-
-task test () << {
+project(':app_frontend').test << {
 	run_karma()
+}
+
+project(':app_frontend').build << {
+	// nop
 }
 
 def run_karma() {

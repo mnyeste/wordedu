@@ -1,17 +1,10 @@
-task clean () << {
-	delete 'build'
-}
-
-task init () << {
-	mkdir("build")
-}
-
-task build () <<{
-	run_dict_import('words')
-}
-
-task test () << {
+project(':app_dict_import').test << {
 	run_dict_import_test()
+}
+
+project(':app_dict_import').build << {
+	run_dict_import('words')
+	run_dict_import('enghun1000')
 }
 
 def run_dict_import(dictname) {
